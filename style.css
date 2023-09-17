@@ -1,0 +1,40 @@
+body {
+    color: white;
+    font-size: 1.5em;
+}
+
+/* Non-flex example wiii */
+
+.non-flex-div {
+    background: red;
+    height: 250px;
+    margin-bottom: 250px;
+    text-align: center;
+}
+
+.non-flex-div div {
+    display: inline-block;
+    background:black;
+    width: 30%;
+    height: 100%;
+    margin: 5px;
+}
+
+
+
+/* flex example */
+
+.flex-div {
+    background: blue;
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.flex-div div {
+    background: black;
+    width: 300px;
+    /* height: 500px; */
+    margin: 5px;
+}
